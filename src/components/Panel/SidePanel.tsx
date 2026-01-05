@@ -1,3 +1,4 @@
+import { useState, useRef, useCallback, useEffect } from 'react'
 import type { GraphData } from '@/types/graph'
 
 interface SidePanelProps {
@@ -9,7 +10,74 @@ interface SidePanelProps {
   onClose: () => void
 }
 
+type DrawerState = 'default' | 'expanded'
+
 export function SidePanel({ selectedNodeId, hoveredNode, data, onNodeSelect, onNodeHover, onClose }: SidePanelProps) {
+  const [drawerState, setDrawerState] = useState<DrawerState>('default')
+  const [isDragging, setIsDragging] = useState(false)
+  const [dragOffset, setDragOffset] = useState(0)
+
+  const dragStartY = useRef(0)
+  const dragStartTime = useRef(0)
+  const panelRef = useRef<HTMLDivElement>(null)
+
+  // Reset drawer state when panel closes/opens
+  useEffect(() => {
+    if (!selectedNodeId) {
+      setDrawerState('default')
+      setDragOffset(0)
+    }
+  }, [selectedNodeId])
+
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    dragStartY.current = e.touches[0].clientY
+    dragStartTime.current = Date.now()
+    setIsDragging(true)
+  }, [])
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    if (!isDragging) return
+
+    const currentY = e.touches[0].clientY
+    const deltaY = currentY - dragStartY.current
+
+    // Limit drag range
+    const maxUp = drawerState === 'default' ? -200 : 0 // Can drag up more from default
+    const maxDown = 300
+    const clampedDelta = Math.max(maxUp, Math.min(maxDown, deltaY))
+
+    setDragOffset(clampedDelta)
+  }, [isDragging, drawerState])
+
+  const handleTouchEnd = useCallback(() => {
+    if (!isDragging) return
+
+    const elapsed = Date.now() - dragStartTime.current
+    const velocity = dragOffset / elapsed // px/ms
+    const velocityThreshold = 0.5 // px/ms
+
+    // Fast swipe down = close
+    if (velocity > velocityThreshold) {
+      onClose()
+    }
+    // Dragged up significantly = expand
+    else if (dragOffset < -80) {
+      setDrawerState('expanded')
+    }
+    // Dragged down significantly from expanded = collapse to default
+    else if (dragOffset > 80 && drawerState === 'expanded') {
+      setDrawerState('default')
+    }
+    // Dragged down from default = close
+    else if (dragOffset > 120 && drawerState === 'default') {
+      onClose()
+    }
+    // Otherwise snap back
+
+    setIsDragging(false)
+    setDragOffset(0)
+  }, [isDragging, dragOffset, drawerState, onClose])
+
   if (!selectedNodeId) return null
 
   const node = data.nodes.find(n => n.id === selectedNodeId)
@@ -30,10 +98,33 @@ export function SidePanel({ selectedNodeId, hoveredNode, data, onNodeSelect, onN
     .map(e => e.target)
     .sort()
 
+  // Calculate mobile height based on state and drag
+  const getMobileMaxHeight = () => {
+    const baseHeight = drawerState === 'expanded' ? 80 : 40 // vh
+    if (isDragging) {
+      // Convert dragOffset (px) to approximate vh adjustment
+      const vhAdjustment = (dragOffset / window.innerHeight) * 100
+      return `${Math.max(20, Math.min(85, baseHeight - vhAdjustment))}vh`
+    }
+    return `${baseHeight}vh`
+  }
+
   return (
-    <div className="fixed inset-x-0 bottom-0 max-h-[40vh] md:inset-auto md:right-0 md:top-0 md:bottom-auto md:max-h-none md:h-full md:w-80 bg-black/95 border-t md:border-t-0 md:border-l border-white/20 flex flex-col z-50 rounded-t-2xl md:rounded-none safe-area-bottom">
-      {/* Mobile handle */}
-      <div className="md:hidden flex justify-center pt-2 pb-1">
+    <div
+      ref={panelRef}
+      className="fixed inset-x-0 bottom-0 md:inset-auto md:right-0 md:top-0 md:bottom-auto md:max-h-none md:h-full md:w-80 bg-black/95 border-t md:border-t-0 md:border-l border-white/20 flex flex-col z-50 rounded-t-2xl md:rounded-none safe-area-bottom"
+      style={{
+        maxHeight: getMobileMaxHeight(),
+        transition: isDragging ? 'none' : 'max-height 0.3s ease-out',
+      }}
+    >
+      {/* Mobile handle - draggable area */}
+      <div
+        className="md:hidden flex justify-center pt-2 pb-1 cursor-grab active:cursor-grabbing touch-none"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         <div className="w-10 h-1 bg-white/30 rounded-full" />
       </div>
 
