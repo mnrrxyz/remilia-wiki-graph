@@ -1,9 +1,7 @@
-import type { GraphData, GraphNode, GraphEdge, RawGraphData } from '../types/graph'
-import rawGraphData from '../../data/remilia_graph_final.json'
-import missingPagesData from '../../data/missing_pages_analysis.json'
+import type { GraphData, GraphNode, GraphEdge, EnrichedGraphData } from '../types/graph'
+import enrichedData from '../../data/remilia_graph_enriched.json'
 
-const graphData = rawGraphData as RawGraphData
-const missingPages = missingPagesData as Record<string, number>
+const graphData = enrichedData as EnrichedGraphData
 
 // Nodes to hide from the graph
 const HIDDEN_NODES = new Set(['Main Page'])
@@ -45,26 +43,32 @@ function findLargestComponent(nodeIds: Set<string>, edges: GraphEdge[]): Set<str
 }
 
 export function processGraphData(): GraphData {
-  const { graph } = graphData
+  const { nodes: rawNodes, edges: rawEdges } = graphData
+
+  // Build node lookup and alias map
+  const nodeMap = new Map(rawNodes.map((n) => [n.id, n]))
+  const aliasToId = new Map<string, string>()
+  for (const node of rawNodes) {
+    for (const alias of node.aliases) {
+      aliasToId.set(alias, node.id)
+    }
+  }
+
+  // Filter edges and collect node IDs (excluding hidden nodes)
   const nodeIds = new Set<string>()
   const edges: GraphEdge[] = []
   const outgoingCounts: Record<string, number> = {}
   const incomingCounts: Record<string, number> = {}
 
-  // Build edges and collect all node IDs (excluding hidden nodes)
-  for (const [source, targets] of Object.entries(graph)) {
-    if (HIDDEN_NODES.has(source)) continue
+  for (const { source, target } of rawEdges) {
+    if (HIDDEN_NODES.has(source) || HIDDEN_NODES.has(target)) continue
 
     nodeIds.add(source)
-    outgoingCounts[source] = targets.length
+    nodeIds.add(target)
+    edges.push({ source, target })
 
-    for (const target of targets) {
-      if (HIDDEN_NODES.has(target)) continue
-
-      nodeIds.add(target)
-      edges.push({ source, target })
-      incomingCounts[target] = (incomingCounts[target] || 0) + 1
-    }
+    outgoingCounts[source] = (outgoingCounts[source] || 0) + 1
+    incomingCounts[target] = (incomingCounts[target] || 0) + 1
   }
 
   // Find largest connected component
@@ -77,6 +81,7 @@ export function processGraphData(): GraphData {
 
   // Build nodes array (only main component)
   const nodes: GraphNode[] = Array.from(mainComponent).map((id) => {
+    const rawNode = nodeMap.get(id)
     const outgoing = outgoingCounts[id] || 0
     const incoming = incomingCounts[id] || 0
     const totalConnections = outgoing + incoming
@@ -91,10 +96,22 @@ export function processGraphData(): GraphData {
       label: id,
       outgoingCount: outgoing,
       incomingCount: incoming,
-      isMissing: id in missingPages,
+      isMissing: rawNode ? !rawNode.exists : false,
+      aliases: rawNode?.aliases || [],
       size,
     }
   })
 
   return { nodes, edges: filteredEdges }
+}
+
+// Export alias map for search functionality
+export function getAliasMap(): Map<string, string> {
+  const aliasToId = new Map<string, string>()
+  for (const node of graphData.nodes) {
+    for (const alias of node.aliases) {
+      aliasToId.set(alias.toLowerCase(), node.id)
+    }
+  }
+  return aliasToId
 }

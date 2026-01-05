@@ -1,5 +1,10 @@
-import { useState, useCallback, useRef, useEffect } from 'react'
+import { useState, useCallback, useRef, useEffect, useMemo } from 'react'
 import type { GraphNode } from '@/types/graph'
+
+interface SearchResult {
+  node: GraphNode
+  matchedAlias?: string
+}
 
 interface SearchBarProps {
   nodes: GraphNode[]
@@ -13,12 +18,43 @@ export function SearchBar({ nodes, onNodeSelect }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  // Filter nodes based on query
-  const results = query.length > 0
-    ? nodes
-        .filter(node => node.label.toLowerCase().includes(query.toLowerCase()))
-        .slice(0, 8)
-    : []
+  // Build alias lookup for search
+  const aliasToNode = useMemo(() => {
+    const map = new Map<string, { node: GraphNode; alias: string }>()
+    for (const node of nodes) {
+      for (const alias of node.aliases) {
+        map.set(alias.toLowerCase(), { node, alias })
+      }
+    }
+    return map
+  }, [nodes])
+
+  // Filter nodes based on query (search by label and aliases)
+  const results: SearchResult[] = useMemo(() => {
+    if (query.length === 0) return []
+
+    const q = query.toLowerCase()
+    const seen = new Set<string>()
+    const matches: SearchResult[] = []
+
+    // First: exact label matches
+    for (const node of nodes) {
+      if (node.label.toLowerCase().includes(q)) {
+        seen.add(node.id)
+        matches.push({ node })
+      }
+    }
+
+    // Second: alias matches (if not already matched by label)
+    for (const [aliasLower, { node, alias }] of aliasToNode) {
+      if (aliasLower.includes(q) && !seen.has(node.id)) {
+        seen.add(node.id)
+        matches.push({ node, matchedAlias: alias })
+      }
+    }
+
+    return matches.slice(0, 8)
+  }, [query, nodes, aliasToNode])
 
   // Reset selected index when results change
   useEffect(() => {
@@ -47,7 +83,7 @@ export function SearchBar({ nodes, onNodeSelect }: SearchBarProps) {
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
     if (!isOpen || results.length === 0) {
       if (e.key === 'Enter' && results.length > 0) {
-        handleSelect(results[0].id)
+        handleSelect(results[0].node.id)
       }
       return
     }
@@ -63,7 +99,7 @@ export function SearchBar({ nodes, onNodeSelect }: SearchBarProps) {
         break
       case 'Enter':
         e.preventDefault()
-        handleSelect(results[selectedIndex].id)
+        handleSelect(results[selectedIndex].node.id)
         break
       case 'Escape':
         setIsOpen(false)
@@ -100,14 +136,14 @@ export function SearchBar({ nodes, onNodeSelect }: SearchBarProps) {
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
           placeholder="Search pages..."
-          className="bg-transparent text-white text-sm outline-none w-48 placeholder:text-white/40"
+          className="bg-transparent text-white text-sm outline-none w-full md:w-48 placeholder:text-white/40"
         />
       </div>
 
       {/* Results dropdown */}
       {isOpen && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-black/95 border border-white/20 rounded-lg overflow-hidden z-50">
-          {results.map((node, index) => (
+        <div className="absolute top-full left-0 right-0 mt-1 bg-black/95 border border-white/20 rounded-lg overflow-hidden z-50 max-h-[50vh] overflow-y-auto">
+          {results.map(({ node, matchedAlias }, index) => (
             <button
               key={node.id}
               onClick={() => handleSelect(node.id)}
@@ -118,6 +154,11 @@ export function SearchBar({ nodes, onNodeSelect }: SearchBarProps) {
               }`}
             >
               {node.label}
+              {matchedAlias && (
+                <span className="text-white/40 ml-2">
+                  (aka {matchedAlias})
+                </span>
+              )}
             </button>
           ))}
         </div>

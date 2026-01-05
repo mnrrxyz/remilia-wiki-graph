@@ -35,3 +35,4 @@ venv/
 
 # Temporary visualization files (PyVis output)
 remilia_wiki_graph.html
+.vercel

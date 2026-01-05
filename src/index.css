@@ -17,6 +17,18 @@ body {
 }
 
 #root {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100dvh; /* dynamic viewport height for mobile browsers */
+}
+
+/* Prevent browser gestures on graph canvas */
+canvas {
+  touch-action: none;
+}
+
+/* Safe area support for notched devices */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
 }
