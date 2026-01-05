@@ -1,11 +1,15 @@
 import { useCallback, useState, useRef, useEffect } from 'react'
 import ForceGraph2D, { ForceGraphMethods } from 'react-force-graph-2d'
-import { forceX, forceY } from 'd3-force'
+import { forceX, forceY, forceRadial, ForceLink } from 'd3-force'
 import type { GraphData, GraphNode, GraphEdge } from '@/types/graph'
 import { COLORS } from '@/utils/colors'
 
 interface GraphProps {
   data: GraphData
+  selectedNode: string | null
+  hoveredNode: string | null
+  onNodeSelect: (nodeId: string | null) => void
+  onNodeHover: (nodeId: string | null) => void
 }
 
 interface NodeObject extends GraphNode {
@@ -22,8 +26,7 @@ interface LinkObject {
   target: string | NodeObject
 }
 
-export function Graph({ data }: GraphProps) {
-  const [hoveredNode, setHoveredNode] = useState<string | null>(null)
+export function Graph({ data, selectedNode, hoveredNode, onNodeSelect, onNodeHover }: GraphProps) {
   const [draggedNode, setDraggedNode] = useState<string | null>(null)
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
   const containerRef = useRef<HTMLDivElement>(null)
@@ -31,6 +34,9 @@ export function Graph({ data }: GraphProps) {
 
   const connectedNodes = useRef<Set<string>>(new Set())
   const connectedLinks = useRef<Set<string>>(new Set())
+  const selectedConnectedNodes = useRef<Set<string>>(new Set())
+  const selectedConnectedLinks = useRef<Set<string>>(new Set())
+  const isDragging = useRef(false)
 
   // Save original positions and setup return forces when simulation ends
   const handleEngineStop = useCallback(() => {
@@ -51,6 +57,7 @@ export function Graph({ data }: GraphProps) {
 
   // Unfix connected nodes during drag for elastic effect
   const handleNodeDrag = useCallback((node: NodeObject) => {
+    isDragging.current = true
     setDraggedNode(node.id)
 
     // Update connected nodes/links for visual highlighting
@@ -79,6 +86,10 @@ export function Graph({ data }: GraphProps) {
 
   // Restore all nodes to original positions with ease effect
   const handleNodeDragEnd = useCallback(() => {
+    // Reset drag flag con delay para que el click no se procese
+    setTimeout(() => {
+      isDragging.current = false
+    }, 50)
     setDraggedNode(null)
 
     // Unfix all nodes - the return forces will pull them back smoothly
@@ -109,6 +120,42 @@ export function Graph({ data }: GraphProps) {
     return () => window.removeEventListener('resize', updateDimensions)
   }, [])
 
+  // Configure force simulation
+  useEffect(() => {
+    if (graphRef.current) {
+      // Link force: logarithmic distance based on connection count
+      const linkForce = graphRef.current.d3Force('link') as ForceLink<NodeObject, LinkObject> | undefined
+      if (linkForce) {
+        linkForce.distance((link: LinkObject) => {
+          const source = link.source as NodeObject
+          const target = link.target as NodeObject
+
+          // Calculate total connections for each node
+          const sourceConnections = (source.outgoingCount || 0) + (source.incomingCount || 0)
+          const targetConnections = (target.outgoingCount || 0) + (target.incomingCount || 0)
+          const avgConnections = (sourceConnections + targetConnections) / 2
+
+          // Logarithmic distance based on connections
+          // More connections (central nodes) = larger distance
+          // Fewer connections (peripheral nodes) = smaller distance
+          const maxDistance = 120
+          const minDistance = 30
+
+          const logFactor = Math.log(avgConnections + 1)
+          const distance = minDistance + logFactor * 15
+
+          return Math.min(maxDistance, distance)
+        })
+      }
+
+      // Radial force: pulls nodes toward a circle around the center
+      // - radius (200): the target distance from center - nodes are pulled toward this radius
+      // - strength (0.05): how strongly nodes are pulled (0-1, lower = gentler pull)
+      // This prevents peripheral nodes from drifting too far away
+      graphRef.current.d3Force('radial', forceRadial(200).strength(0.05))
+    }
+  }, [dimensions])
+
 
   const graphData = {
     nodes: data.nodes as NodeObject[],
@@ -119,47 +166,132 @@ export function Graph({ data }: GraphProps) {
   }
 
   const handleNodeHover = useCallback((node: NodeObject | null) => {
+    onNodeHover(node ? node.id : null)
+  }, [onNodeHover])
+
+  // Update connected nodes/links when hoveredNode changes
+  useEffect(() => {
     connectedNodes.current.clear()
     connectedLinks.current.clear()
 
-    if (node) {
-      setHoveredNode(node.id)
-      connectedNodes.current.add(node.id)
-
+    if (hoveredNode) {
+      connectedNodes.current.add(hoveredNode)
       data.edges.forEach((edge) => {
-        if (edge.source === node.id || edge.target === node.id) {
+        if (edge.source === hoveredNode || edge.target === hoveredNode) {
           connectedNodes.current.add(edge.source)
           connectedNodes.current.add(edge.target)
           connectedLinks.current.add(`${edge.source}-${edge.target}`)
         }
       })
-    } else {
-      setHoveredNode(null)
     }
-  }, [data.edges])
+  }, [hoveredNode, data.edges])
+
+  const handleNodeClick = useCallback((node: NodeObject) => {
+    // Ignorar click si fue un drag
+    if (isDragging.current) {
+      return
+    }
+
+    if (selectedNode === node.id) {
+      // Click en el mismo nodo = deseleccionar
+      onNodeSelect(null)
+    } else {
+      // Seleccionar nuevo nodo
+      onNodeSelect(node.id)
+    }
+  }, [selectedNode, onNodeSelect])
+
+  const handleBackgroundClick = useCallback(() => {
+    // Ignorar click si fue un drag
+    if (isDragging.current) {
+      return
+    }
+    onNodeSelect(null)
+  }, [onNodeSelect])
+
+  // Update selected connections when selectedNode changes
+  useEffect(() => {
+    selectedConnectedNodes.current.clear()
+    selectedConnectedLinks.current.clear()
+
+    if (selectedNode) {
+      selectedConnectedNodes.current.add(selectedNode)
+      data.edges.forEach((edge) => {
+        if (edge.source === selectedNode || edge.target === selectedNode) {
+          selectedConnectedNodes.current.add(edge.source)
+          selectedConnectedNodes.current.add(edge.target)
+          selectedConnectedLinks.current.add(`${edge.source}-${edge.target}`)
+        }
+      })
+    }
+  }, [selectedNode, data.edges])
 
   const nodeColor = useCallback((node: NodeObject) => {
+    // Prioridad: selección > hover/drag > default
+    if (selectedNode) {
+      // Si hay hover sobre una conexión del nodo seleccionado
+      if (hoveredNode && hoveredNode !== selectedNode && selectedConnectedNodes.current.has(hoveredNode)) {
+        // Solo el selected y el hovered al 100%
+        if (node.id === selectedNode || node.id === hoveredNode) {
+          return COLORS.node.hover
+        }
+        return COLORS.node.dimmed
+      }
+      // Sin hover: todos los conectados al 100%
+      if (selectedConnectedNodes.current.has(node.id)) {
+        return COLORS.node.hover
+      }
+      return COLORS.node.dimmed
+    }
+
     const isHighlighted = hoveredNode || draggedNode
-    if (!isHighlighted) {
-      return node.isMissing ? COLORS.node.missing : COLORS.node.default
+    if (isHighlighted) {
+      if (connectedNodes.current.has(node.id)) {
+        return COLORS.node.hover
+      }
+      return COLORS.node.dimmed
     }
-    if (connectedNodes.current.has(node.id)) {
-      return COLORS.node.hover
-    }
-    return node.isMissing ? COLORS.node.missing : COLORS.node.default
-  }, [hoveredNode, draggedNode])
+
+    return COLORS.node.default
+  }, [selectedNode, hoveredNode, draggedNode])
 
   const linkColor = useCallback((link: LinkObject) => {
     const sourceId = typeof link.source === 'object' ? link.source.id : link.source
     const targetId = typeof link.target === 'object' ? link.target.id : link.target
     const linkKey = `${sourceId}-${targetId}`
 
-    const isHighlighted = hoveredNode || draggedNode
-    if (isHighlighted && connectedLinks.current.has(linkKey)) {
-      return COLORS.node.hover
+    if (selectedNode) {
+      // Si hay hover sobre una conexión del nodo seleccionado
+      if (hoveredNode && hoveredNode !== selectedNode && selectedConnectedNodes.current.has(hoveredNode)) {
+        // Link entre selectedNode y hoveredNode → highlight
+        const isLinkBetweenSelectedAndHovered =
+          (sourceId === selectedNode && targetId === hoveredNode) ||
+          (sourceId === hoveredNode && targetId === selectedNode)
+
+        if (isLinkBetweenSelectedAndHovered) {
+          return COLORS.link.hover
+        }
+        // Todo lo demás → dimmed
+        return COLORS.link.dimmed
+      }
+
+      // Sin hover en conexión: todas las conexiones del seleccionado → highlight
+      if (selectedConnectedLinks.current.has(linkKey)) {
+        return COLORS.link.hover
+      }
+      return COLORS.link.dimmed
     }
-    return COLORS.node.default
-  }, [hoveredNode, draggedNode])
+
+    const isHighlighted = hoveredNode || draggedNode
+    if (isHighlighted) {
+      if (connectedLinks.current.has(linkKey)) {
+        return COLORS.link.hover
+      }
+      return COLORS.link.dimmed
+    }
+
+    return COLORS.link.default
+  }, [selectedNode, hoveredNode, draggedNode])
 
   const nodeCanvasObject = useCallback((
     node: NodeObject,
@@ -176,8 +308,18 @@ export function Graph({ data }: GraphProps) {
     ctx.fillStyle = nodeColor(node)
     ctx.fill()
 
-    // Draw label with background on hover or drag
-    if (hoveredNode === node.id || draggedNode === node.id) {
+    // Mostrar label si:
+    // - Es el nodo seleccionado
+    // - Es el nodo con hover
+    // - Es el nodo siendo arrastrado
+    // - Es un nodo conectado al seleccionado Y tiene hover
+    const showLabel =
+      selectedNode === node.id ||
+      hoveredNode === node.id ||
+      draggedNode === node.id ||
+      (selectedNode && selectedConnectedNodes.current.has(node.id) && hoveredNode === node.id)
+
+    if (showLabel) {
       const label = node.label
       const fontSize = 12 / globalScale
       const padding = 4 / globalScale
@@ -202,7 +344,7 @@ export function Graph({ data }: GraphProps) {
       ctx.fillStyle = '#000000'
       ctx.fillText(label, x, labelY)
     }
-  }, [hoveredNode, draggedNode, nodeColor])
+  }, [selectedNode, hoveredNode, draggedNode, nodeColor])
 
   return (
     <div ref={containerRef} style={{ width: '100vw', height: '100vh' }}>
@@ -224,10 +366,20 @@ export function Graph({ data }: GraphProps) {
             ctx.fill()
           }}
           onNodeHover={handleNodeHover}
+          onNodeClick={handleNodeClick}
+          onBackgroundClick={handleBackgroundClick}
           onNodeDrag={handleNodeDrag}
           onNodeDragEnd={handleNodeDragEnd}
           onEngineStop={handleEngineStop}
           linkWidth={1}
+          linkDirectionalArrowLength={(link: LinkObject) => {
+            if (!selectedNode) return 0
+            const sourceId = typeof link.source === 'object' ? link.source.id : link.source
+            const targetId = typeof link.target === 'object' ? link.target.id : link.target
+            return (sourceId === selectedNode || targetId === selectedNode) ? 4 : 0
+          }}
+          linkDirectionalArrowRelPos={1}
+          linkDirectionalArrowColor={linkColor}
           enableNodeDrag={true}
           cooldownTicks={200}
           d3VelocityDecay={0.55}

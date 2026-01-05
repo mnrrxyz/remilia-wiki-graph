@@ -1,0 +1,7609 @@
+{
+  "metadata": {
+    "total_nodes": 378,
+    "existing_nodes": 148,
+    "missing_nodes": 230,
+    "total_edges": 1224,
+    "redirects_resolved": 27,
+    "timestamp": "2026-01-05 15:44:00"
+  },
+  "nodes": [
+    {
+      "id": "Ethereum Foundation",
+      "label": "Ethereum Foundation",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "CULT ICO",
+      "label": "CULT ICO",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Charlotte Fang",
+      "label": "Charlotte Fang",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Mark Fisher",
+      "label": "Mark Fisher",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Scatter (platform)",
+      "label": "Scatter (platform)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Network accelerationism",
+      "label": "Network accelerationism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Firstslop",
+      "label": "Firstslop",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Yeche Lange",
+      "label": "Yeche Lange",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Futurist Manifesto",
+      "label": "The Futurist Manifesto",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "International Klein Blue",
+      "label": "International Klein Blue",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Bernadette Corporation",
+      "label": "Bernadette Corporation",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Blockchain art",
+      "label": "Blockchain art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "New Net Art Manifseto",
+      "label": "New Net Art Manifseto",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Squigglecore",
+      "label": "Squigglecore",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "State Propaganda Complex",
+      "label": "State Propaganda Complex",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Kerosene",
+      "label": "Kerosene",
+      "exists": true,
+      "aliases": [
+        "Nyabeat"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Down the Milady Maker Rabbithole",
+      "label": "Down the Milady Maker Rabbithole",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Performative Posting",
+      "label": "Performative Posting",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Film01 (2023)",
+      "label": "Film01 (2023)",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia Chat",
+      "label": "Remilia Chat",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Dynasty Mindset",
+      "label": "Dynasty Mindset",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Super Metal Bosch",
+      "label": "Super Metal Bosch",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "PFP NFT",
+      "label": "PFP NFT",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Bioleninism",
+      "label": "Bioleninism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Anti-MFA Pledge",
+      "label": "Anti-MFA Pledge",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Pacific Turn",
+      "label": "Pacific Turn",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady Cancel",
+      "label": "Milady Cancel",
+      "exists": true,
+      "aliases": [
+        "The Milady Cancel (2022)"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Super Metal Mons!!",
+      "label": "Super Metal Mons!!",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Miladychan",
+      "label": "Miladychan",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Net.art",
+      "label": "Net.art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "$YAYO",
+      "label": "$YAYO",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Wet Brain podcast",
+      "label": "Wet Brain podcast",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Nic Carter",
+      "label": "Nic Carter",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Wartime Vitalik",
+      "label": "Wartime Vitalik",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Moe",
+      "label": "Moe",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "33reisen: London, October 2023",
+      "label": "33reisen: London, October 2023",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Neo-Orientalism",
+      "label": "Neo-Orientalism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady Raves",
+      "label": "Milady Raves",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Kemonokaki",
+      "label": "Kemonokaki",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Beetleboy",
+      "label": "Beetleboy",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Schizo-aesthetics",
+      "label": "Schizo-aesthetics",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Nya Nakamura",
+      "label": "Nya Nakamura",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Main Page",
+      "label": "Main Page",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Dimes Square",
+      "label": "Dimes Square",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Mirror (platform)",
+      "label": "Mirror (platform)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Merge",
+      "label": "The Merge",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Wall Street",
+      "label": "Wall Street",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Manifesto",
+      "label": "Remilia Manifesto",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Exocore",
+      "label": "Exocore",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Abundance Mindset",
+      "label": "Abundance Mindset",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "New Net Art Manifesto",
+      "label": "New Net Art Manifesto",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Based Retard Gang",
+      "label": "Based Retard Gang",
+      "exists": true,
+      "aliases": [
+        "BASEDRETARDGANG"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "FRUiTS Magazine",
+      "label": "FRUiTS Magazine",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Angelicism01 clone",
+      "label": "Angelicism01 clone",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Mina Yurok",
+      "label": "Mina Yurok",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Pacific Turn",
+      "label": "The Pacific Turn",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Hot Pot",
+      "label": "Hot Pot",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Honer Levy",
+      "label": "Honer Levy",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Millennialism",
+      "label": "Millennialism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "2024 Election Vibe Shift",
+      "label": "2024 Election Vibe Shift",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Alexis de Tocqueville",
+      "label": "Alexis de Tocqueville",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "New Internet",
+      "label": "New Internet",
+      "exists": true,
+      "aliases": [
+        "The New Internet"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Vitalik Buterin",
+      "label": "Vitalik Buterin",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Art accelerationism",
+      "label": "Art accelerationism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Stratified Literacy Theory",
+      "label": "Stratified Literacy Theory",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Jared Madere",
+      "label": "Jared Madere",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "IQ shredder",
+      "label": "IQ shredder",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Bonkler",
+      "label": "Bonkler",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "33reisen",
+      "label": "33reisen",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Nick Land",
+      "label": "Nick Land",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Dasha Nekrasova",
+      "label": "Dasha Nekrasova",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "I LOVE YOU CHARLOTTE FANG",
+      "label": "I LOVE YOU CHARLOTTE FANG",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Meguca",
+      "label": "Meguca",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Capitalocene",
+      "label": "Capitalocene",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "$CULT",
+      "label": "$CULT",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Accelerationist realism",
+      "label": "Accelerationist realism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Cyborgism",
+      "label": "Cyborgism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Post-cancelled",
+      "label": "Post-cancelled",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady Culture",
+      "label": "Milady Culture",
+      "exists": true,
+      "aliases": [
+        "Milady culture"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady Soiree",
+      "label": "Milady Soiree",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Extortion Industry",
+      "label": "Extortion Industry",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Get in the Crystal",
+      "label": "Get in the Crystal",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Pick a Future",
+      "label": "Pick a Future",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Pseudophilosophy",
+      "label": "Pseudophilosophy",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Sol Brah",
+      "label": "Sol Brah",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Network spirituality",
+      "label": "Network spirituality",
+      "exists": true,
+      "aliases": [
+        "Network Spirituality"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Digital art appropriation",
+      "label": "Digital art appropriation",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Walter Pearce",
+      "label": "Walter Pearce",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "FBI Hat",
+      "label": "FBI Hat",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "1000 Flowers Dream",
+      "label": "1000 Flowers Dream",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hiroshi Nagai",
+      "label": "Hiroshi Nagai",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Indie sleaze",
+      "label": "Indie sleaze",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "PfpNFT",
+      "label": "PfpNFT",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Mythopoetics",
+      "label": "Remilia Mythopoetics",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Wealthy Hypio Babies",
+      "label": "Wealthy Hypio Babies",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "33reisen: London, June 2023",
+      "label": "33reisen: London, June 2023",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Sol Brah Save Me",
+      "label": "Sol Brah Save Me",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Starstooth Check",
+      "label": "Starstooth Check",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Sonya Qafi Hassan",
+      "label": "Sonya Qafi Hassan",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Corporation",
+      "label": "Remilia Corporation",
+      "exists": true,
+      "aliases": [
+        "Remilia"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Oekaki Connect",
+      "label": "Oekaki Connect",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "American Psycho",
+      "label": "American Psycho",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "David Rudnick",
+      "label": "David Rudnick",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Augustinian Accelerationism",
+      "label": "Augustinian Accelerationism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Golden Light (Mirror)",
+      "label": "Golden Light (Mirror)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Ikologies",
+      "label": "Ikologies",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "33reisen: London, June 2024",
+      "label": "33reisen: London, June 2024",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady, That B.I.T.C.H.",
+      "label": "Milady, That B.I.T.C.H.",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "New York Downtown Art Scene",
+      "label": "New York Downtown Art Scene",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Jinnt",
+      "label": "Jinnt",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Laszlo Parker",
+      "label": "Laszlo Parker",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Banners NFT",
+      "label": "Banners NFT",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Posting Art",
+      "label": "Posting Art",
+      "exists": true,
+      "aliases": [
+        "Posting is the New Art"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "John Lemaire",
+      "label": "John Lemaire",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "RemiliaNET",
+      "label": "RemiliaNET",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "YAYO Corporation",
+      "label": "YAYO Corporation",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Vibe shift",
+      "label": "Vibe shift",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "33reisen: London, December 2023",
+      "label": "33reisen: London, December 2023",
+      "exists": true,
+      "aliases": [
+        "33reisen: London, Dec 2023"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Avant NFT Attribution Dispute",
+      "label": "Avant NFT Attribution Dispute",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "MFA",
+      "label": "MFA",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Retardio Cousins",
+      "label": "Retardio Cousins",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Rose Lyddon",
+      "label": "Rose Lyddon",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Yayo Corporation",
+      "label": "Yayo Corporation",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Yeag Chat",
+      "label": "Yeag Chat",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Post-Irony",
+      "label": "Post-Irony",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Chudjak",
+      "label": "Chudjak",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "CUTE/ACC",
+      "label": "CUTE/ACC",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Interview: Visla Magazine — Charlotte Fang (2024)",
+      "label": "Interview: Visla Magazine — Charlotte Fang (2024)",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Miya Black Hearted Cyber Angel Baby",
+      "label": "Miya Black Hearted Cyber Angel Baby",
+      "exists": true,
+      "aliases": [
+        "Miya"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Dark Enlightenment",
+      "label": "Dark Enlightenment",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Deathcel Skibidi (2024)",
+      "label": "Deathcel Skibidi (2024)",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Zyg.re",
+      "label": "Zyg.re",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Miya (Kali Yuga Accelerationism)",
+      "label": "Miya (Kali Yuga Accelerationism)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Looming China",
+      "label": "Looming China",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "I Long for Network Spirituality",
+      "label": "I Long for Network Spirituality",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "$FUMO",
+      "label": "$FUMO",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "René Girard",
+      "label": "René Girard",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Everyone is a Chinese wigger online",
+      "label": "Everyone is a Chinese wigger online",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Mara Barl",
+      "label": "Mara Barl",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady community",
+      "label": "Milady community",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Drifella",
+      "label": "Drifella",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Chineseposting",
+      "label": "Chineseposting",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "3DTestosterone",
+      "label": "3DTestosterone",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Technological singularity",
+      "label": "Technological singularity",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Megu/pol/",
+      "label": "Megu/pol/",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Nazi Anorexia Cult",
+      "label": "Nazi Anorexia Cult",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Kagami Academy",
+      "label": "Kagami Academy",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Dissident right",
+      "label": "Dissident right",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Pixelady Maker",
+      "label": "Pixelady Maker",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Against New Games",
+      "label": "Against New Games",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia Red",
+      "label": "Remilia Red",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Julius Evola",
+      "label": "Julius Evola",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Italian Futurism",
+      "label": "Italian Futurism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Deathcel Skibidi",
+      "label": "Deathcel Skibidi",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Jadeposting",
+      "label": "Jadeposting",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Ethereum",
+      "label": "Ethereum",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Kawaii",
+      "label": "Kawaii",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Down the Milady Maker Rabbithole (2022)",
+      "label": "Down the Milady Maker Rabbithole (2022)",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Street Don",
+      "label": "Street Don",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "CHEESEWORLD",
+      "label": "CHEESEWORLD",
+      "exists": true,
+      "aliases": [
+        "Cheeseworld"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Neoreaction",
+      "label": "Neoreaction",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Derivative ecosystem",
+      "label": "Derivative ecosystem",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Touhou Project",
+      "label": "Touhou Project",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Grand Remilia Ball",
+      "label": "Grand Remilia Ball",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Tim Clancy",
+      "label": "Tim Clancy",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "XCELA Green",
+      "label": "XCELA Green",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Anthropocene",
+      "label": "Anthropocene",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "XCELA Group",
+      "label": "XCELA Group",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Post-anime",
+      "label": "Post-anime",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Gay NFT",
+      "label": "Gay NFT",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "NFT Strategy",
+      "label": "NFT Strategy",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Bruno Nispel",
+      "label": "Bruno Nispel",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "KALI/ACC",
+      "label": "KALI/ACC",
+      "exists": true,
+      "aliases": [
+        "Kali Yuga Accelerationism"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Chensi Fang",
+      "label": "Chensi Fang",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "CULT",
+      "label": "CULT",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Lawsuit",
+      "label": "Remilia Lawsuit",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Infodensity",
+      "label": "Infodensity",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Dean Kissick",
+      "label": "Dean Kissick",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "I Long For Network Spirituality",
+      "label": "I Long For Network Spirituality",
+      "exists": true,
+      "aliases": [
+        "I Long For Network Spirituality (Exhibition)"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Ascend the Network",
+      "label": "Ascend the Network",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia x FRUiTS",
+      "label": "Remilia x FRUiTS",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady Rave",
+      "label": "Milady Rave",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hurt hapas",
+      "label": "Hurt hapas",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady Fumo Baby 404",
+      "label": "Milady Fumo Baby 404",
+      "exists": true,
+      "aliases": [
+        "Milady 3d Fumo"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Zhu Su",
+      "label": "Zhu Su",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Urbit",
+      "label": "Urbit",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Neoreactionary movement (NRx",
+      "label": "Neoreactionary movement (NRx",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Achievements",
+      "label": "Remilia Achievements",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Wet Brain Podcast",
+      "label": "Wet Brain Podcast",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Beetle Game",
+      "label": "Beetle Game",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady Jihad",
+      "label": "Milady Jihad",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Deathcel",
+      "label": "Deathcel",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Effective Accelerationism",
+      "label": "Effective Accelerationism",
+      "exists": true,
+      "aliases": [
+        "Effective accelerationism"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Streisand deflect",
+      "label": "Streisand deflect",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "YAYO Supplements",
+      "label": "YAYO Supplements",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Post-Internet Art",
+      "label": "Post-Internet Art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "John Duff",
+      "label": "John Duff",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "KALI/ACC Basilisk: A Survival Horror Eschatology",
+      "label": "KALI/ACC Basilisk: A Survival Horror Eschatology",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Borg",
+      "label": "The Borg",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "YAYO NFT",
+      "label": "YAYO NFT",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Mifella",
+      "label": "Mifella",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Shooter.eth",
+      "label": "Shooter.eth",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Information freedom",
+      "label": "Information freedom",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Krishna Pandit Okhandiar",
+      "label": "Krishna Pandit Okhandiar",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Brain-computer interface",
+      "label": "Brain-computer interface",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady Maker (application)",
+      "label": "Milady Maker (application)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Cypherpunk",
+      "label": "Cypherpunk",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Friedrich Nietzsche",
+      "label": "Friedrich Nietzsche",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Copyleft",
+      "label": "Copyleft",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Curtis Yarvin",
+      "label": "Curtis Yarvin",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "33Reisen",
+      "label": "33Reisen",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Vulture Revisionism",
+      "label": "Vulture Revisionism",
+      "exists": true,
+      "aliases": [
+        "Vulture revisionism"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Onno Whitemoor",
+      "label": "Onno Whitemoor",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Quarterly",
+      "label": "Remilia Quarterly",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Avant NFT",
+      "label": "Avant NFT",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Liz777",
+      "label": "Liz777",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Post-humanism",
+      "label": "Post-humanism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Serial Experiments Lain",
+      "label": "Serial Experiments Lain",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Baycel",
+      "label": "Baycel",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Technocapitalism",
+      "label": "Technocapitalism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Tojiba CEO",
+      "label": "Tojiba CEO",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Chinese Instagram",
+      "label": "Chinese Instagram",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "New Net Art",
+      "label": "New Net Art",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Curtis Yarvin (Mencius Moldbug)",
+      "label": "Curtis Yarvin (Mencius Moldbug)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Collective",
+      "label": "Remilia Collective",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Elon Musk",
+      "label": "Elon Musk",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Blue",
+      "label": "Remilia Blue",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Scearpo",
+      "label": "Scearpo",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Timeline Happening",
+      "label": "Timeline Happening",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Maxwell Roux",
+      "label": "Maxwell Roux",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Brian Droitcour",
+      "label": "Brian Droitcour",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Atrpntime",
+      "label": "Atrpntime",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Artificial intelligence",
+      "label": "Artificial intelligence",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Merge (disambiguation)",
+      "label": "The Merge (disambiguation)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Rugcore",
+      "label": "Rugcore",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Transcendental Turn",
+      "label": "Transcendental Turn",
+      "exists": true,
+      "aliases": [
+        "New Transcendentalism"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "IQ Communication Barrier",
+      "label": "IQ Communication Barrier",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Daniel Keller",
+      "label": "Daniel Keller",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Oekaki Maker",
+      "label": "Oekaki Maker",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hypercitation",
+      "label": "Hypercitation",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Left-hand style",
+      "label": "Left-hand style",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Hot Pot (groupchat)",
+      "label": "Hot Pot (groupchat)",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "New York downtown art scene",
+      "label": "New York downtown art scene",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Sophia Vanderbilt",
+      "label": "Sophia Vanderbilt",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Cry Prittie",
+      "label": "Cry Prittie",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Ilyena Nienel",
+      "label": "Ilyena Nienel",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady Maker",
+      "label": "Milady Maker",
+      "exists": true,
+      "aliases": [
+        "Milady"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "CULT TGE",
+      "label": "CULT TGE",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Posting as Art",
+      "label": "Posting as Art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Ibn Sonya",
+      "label": "Ibn Sonya",
+      "exists": true,
+      "aliases": [
+        "Sonya Qafi"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "You can always be more Chinese",
+      "label": "You can always be more Chinese",
+      "exists": true,
+      "aliases": [
+        "You can always be more chinese"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Cage Ark",
+      "label": "Cage Ark",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Andrew Tate",
+      "label": "Andrew Tate",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Chibi",
+      "label": "Chibi",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Mail Art",
+      "label": "Mail Art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Nazi Anorexia Cult Hoax",
+      "label": "Nazi Anorexia Cult Hoax",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Angelicism01",
+      "label": "Angelicism01",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Transhumanism",
+      "label": "Transhumanism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "TPOT",
+      "label": "TPOT",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Retart",
+      "label": "Retart",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "René Guénon",
+      "label": "René Guénon",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Radical Love",
+      "label": "Radical Love",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Accelerationist Realism",
+      "label": "Accelerationist Realism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Radical Love Through the End Times is the only vibe that Vibes",
+      "label": "Radical Love Through the End Times is the only vibe that Vibes",
+      "exists": true,
+      "aliases": [
+        "Radical Love Through the End Times"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia Irvine",
+      "label": "Remilia Irvine",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Derivative strategy",
+      "label": "Derivative strategy",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Post-Authorship",
+      "label": "Post-Authorship",
+      "exists": true,
+      "aliases": [
+        "Post-authorship"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Cancel Dossier",
+      "label": "Cancel Dossier",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Andy Warhol",
+      "label": "Andy Warhol",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Amazing black culture",
+      "label": "Amazing black culture",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Neochibi",
+      "label": "Neochibi",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Wretched Worm",
+      "label": "Wretched Worm",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Cathedral",
+      "label": "The Cathedral",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Milady Rave: London, December 2022",
+      "label": "Milady Rave: London, December 2022",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia Korea",
+      "label": "Remilia Korea",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Teilhard de Chardin",
+      "label": "Teilhard de Chardin",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "RemiliaChat",
+      "label": "RemiliaChat",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Cosmological Multipolarity",
+      "label": "Cosmological Multipolarity",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Redacted Remilio Babies",
+      "label": "Redacted Remilio Babies",
+      "exists": true,
+      "aliases": [
+        "Remilio",
+        "Remilio Babies"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Cybersteppe",
+      "label": "Cybersteppe",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Miladycraft",
+      "label": "Miladycraft",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Jinnt (@djinnt)",
+      "label": "Jinnt (@djinnt)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "NFT",
+      "label": "NFT",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Omega Point",
+      "label": "Omega Point",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Left-accelerationism",
+      "label": "Left-accelerationism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Chen2",
+      "label": "Chen2",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Peter Vack",
+      "label": "Peter Vack",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Left-Hand Style",
+      "label": "Left-Hand Style",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Derivative Ecosystem",
+      "label": "Remilia Derivative Ecosystem",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Kali/ACC",
+      "label": "Kali/ACC",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hyperpop",
+      "label": "Hyperpop",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Lefthand style",
+      "label": "Lefthand style",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia Corporation (artwork)",
+      "label": "Remilia Corporation (artwork)",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "The Factory",
+      "label": "The Factory",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "AI alignment",
+      "label": "AI alignment",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Gilles Deleuze",
+      "label": "Gilles Deleuze",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Henry Sprite",
+      "label": "Henry Sprite",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Grum Slah the Gabba King",
+      "label": "Grum Slah the Gabba King",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Abundance Mentality",
+      "label": "Abundance Mentality",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Network Accelerationism",
+      "label": "Network Accelerationism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Alexander Dugin",
+      "label": "Alexander Dugin",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Lost Generation of Artists",
+      "label": "The Lost Generation of Artists",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Cybernetic Culture Research Unit",
+      "label": "Cybernetic Culture Research Unit",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "God's Remix",
+      "label": "God's Remix",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Bonkler 9/11",
+      "label": "Bonkler 9/11",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Remilia ecosystem",
+      "label": "Remilia ecosystem",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "2021 Vibe Shift Summer",
+      "label": "2021 Vibe Shift Summer",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Persona-egregrores",
+      "label": "Persona-egregrores",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hypercitationalism",
+      "label": "Hypercitationalism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Warholian groupchat",
+      "label": "Warholian groupchat",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Roon",
+      "label": "Roon",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "The Wired Eats the Real",
+      "label": "The Wired Eats the Real",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Nochillio",
+      "label": "Nochillio",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Netspi",
+      "label": "Netspi",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Wartime PFP",
+      "label": "Wartime PFP",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "NYC Downtown Art Scene",
+      "label": "NYC Downtown Art Scene",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Crypto and its Discontents: Hello Web3 Entryists",
+      "label": "Crypto and its Discontents: Hello Web3 Entryists",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Schizocollage",
+      "label": "Schizocollage",
+      "exists": true,
+      "aliases": [
+        "Traitmaxxing"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Netspi Aesthetic",
+      "label": "Netspi Aesthetic",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Cypherpunk Purity Spiral",
+      "label": "Cypherpunk Purity Spiral",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Anorexia subculture",
+      "label": "Anorexia subculture",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Irreverent subtitling",
+      "label": "Irreverent subtitling",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hyperrealtime",
+      "label": "Hyperrealtime",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "0xCobie",
+      "label": "0xCobie",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Mask Art",
+      "label": "Mask Art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Accelerationism",
+      "label": "Accelerationism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Hot Pot (group chat)",
+      "label": "Hot Pot (group chat)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Gravity Boost Theory",
+      "label": "Gravity Boost Theory",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Democracy Breeds for Control",
+      "label": "Democracy Breeds for Control",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Tamales",
+      "label": "Tamales",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Dog Bone Village",
+      "label": "Dog Bone Village",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Love Accelerationism (LOVE/ACC)",
+      "label": "Love Accelerationism (LOVE/ACC)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Digital sovereignty",
+      "label": "Digital sovereignty",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Performative posting",
+      "label": "Performative posting",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "CHINA!",
+      "label": "CHINA!",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Honor Levy",
+      "label": "Honor Levy",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Kek",
+      "label": "Kek",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia01 (2023)",
+      "label": "Remilia01 (2023)",
+      "exists": true,
+      "aliases": [
+        "Remilia01"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "Schizomorphism",
+      "label": "Schizomorphism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Chloe21e8",
+      "label": "Chloe21e8",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Viral Public License",
+      "label": "Viral Public License",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "José Ortega y Gasset",
+      "label": "José Ortega y Gasset",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Base (blockchain)",
+      "label": "Base (blockchain)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remilia Cotton Candy Tartan",
+      "label": "Remilia Cotton Candy Tartan",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Bihk",
+      "label": "Bihk",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Eugene Kotlyarenko",
+      "label": "Eugene Kotlyarenko",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Nouns DAO",
+      "label": "Nouns DAO",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Asterisk of Obesity",
+      "label": "Asterisk of Obesity",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Whitepill (Remilia Manifesto)",
+      "label": "Whitepill (Remilia Manifesto)",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Post-identity",
+      "label": "Post-identity",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "G Manifesto",
+      "label": "G Manifesto",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Spandrell",
+      "label": "Spandrell",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Michel Foucault",
+      "label": "Michel Foucault",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Wet Brain",
+      "label": "Wet Brain",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Everything Bonkler",
+      "label": "Everything Bonkler",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Conceptual artwork",
+      "label": "Conceptual artwork",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Human-computer interaction",
+      "label": "Human-computer interaction",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady Sonora",
+      "label": "Milady Sonora",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Cute Cthulhu Thesis",
+      "label": "Cute Cthulhu Thesis",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Network art",
+      "label": "Network art",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Soap.rwo",
+      "label": "Soap.rwo",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "FODKORP",
+      "label": "FODKORP",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Millennial Gatekeeping",
+      "label": "Millennial Gatekeeping",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Remichat POC",
+      "label": "Remichat POC",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Milady Election Night Watch Party",
+      "label": "Milady Election Night Watch Party",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Avant NFT Wave",
+      "label": "Avant NFT Wave",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Vibe Shift",
+      "label": "Vibe Shift",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Atheistic materialism",
+      "label": "Atheistic materialism",
+      "exists": true,
+      "aliases": [
+        "Atheistic Materialism"
+      ],
+      "type": "canonical"
+    },
+    {
+      "id": "YAYO Corporation/Community",
+      "label": "YAYO Corporation/Community",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Warholian Groupchat",
+      "label": "Warholian Groupchat",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Capitalist Realism",
+      "label": "Capitalist Realism",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Somachat",
+      "label": "Somachat",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Normie",
+      "label": "Normie",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Bloody PFP",
+      "label": "Bloody PFP",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    },
+    {
+      "id": "Vitalik Milady Arc",
+      "label": "Vitalik Milady Arc",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Anathleticism",
+      "label": "Anathleticism",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "KALI/ACC Basilisk",
+      "label": "KALI/ACC Basilisk",
+      "exists": true,
+      "aliases": [],
+      "type": "canonical"
+    },
+    {
+      "id": "Reisen Academy",
+      "label": "Reisen Academy",
+      "exists": false,
+      "aliases": [],
+      "type": "missing"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$CULT",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "$CULT",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "$CULT",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "$CULT",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "$FUMO",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "$FUMO",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "$FUMO",
+      "target": "Touhou Project"
+    },
+    {
+      "source": "$FUMO",
+      "target": "Milady Fumo Baby 404"
+    },
+    {
+      "source": "$YAYO",
+      "target": "John Lemaire"
+    },
+    {
+      "source": "$YAYO",
+      "target": "YAYO Corporation"
+    },
+    {
+      "source": "$YAYO",
+      "target": "$CULT"
+    },
+    {
+      "source": "$YAYO",
+      "target": "YAYO NFT"
+    },
+    {
+      "source": "$YAYO",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "Dissident right"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "Milady Election Night Watch Party"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "Vibe shift"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "2021 Vibe Shift Summer"
+    },
+    {
+      "source": "2024 Election Vibe Shift",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "33reisen",
+      "target": "Remilia x FRUiTS"
+    },
+    {
+      "source": "33reisen",
+      "target": "33reisen: London, October 2023"
+    },
+    {
+      "source": "33reisen",
+      "target": "Milady Rave: London, December 2022"
+    },
+    {
+      "source": "33reisen",
+      "target": "Milady Raves"
+    },
+    {
+      "source": "33reisen",
+      "target": "FRUiTS Magazine"
+    },
+    {
+      "source": "33reisen",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "33reisen",
+      "target": "33reisen: London, June 2023"
+    },
+    {
+      "source": "33reisen",
+      "target": "Kerosene"
+    },
+    {
+      "source": "33reisen",
+      "target": "33reisen: London, December 2023"
+    },
+    {
+      "source": "33reisen",
+      "target": "Milady Soiree"
+    },
+    {
+      "source": "33reisen",
+      "target": "33reisen: London, June 2024"
+    },
+    {
+      "source": "33reisen",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "33reisen: London, December 2023",
+      "target": "Cage Ark"
+    },
+    {
+      "source": "33reisen: London, December 2023",
+      "target": "33reisen"
+    },
+    {
+      "source": "33reisen: London, December 2023",
+      "target": "Kerosene"
+    },
+    {
+      "source": "33reisen: London, December 2023",
+      "target": "33reisen: London, December 2023"
+    },
+    {
+      "source": "33reisen: London, December 2023",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "33reisen: London, June 2023",
+      "target": "33reisen"
+    },
+    {
+      "source": "33reisen: London, June 2023",
+      "target": "Mina Yurok"
+    },
+    {
+      "source": "33reisen: London, June 2023",
+      "target": "Nya Nakamura"
+    },
+    {
+      "source": "33reisen: London, June 2023",
+      "target": "Kerosene"
+    },
+    {
+      "source": "33reisen: London, June 2023",
+      "target": "Ikologies"
+    },
+    {
+      "source": "33reisen: London, June 2023",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "33reisen: London, June 2024",
+      "target": "Kerosene"
+    },
+    {
+      "source": "33reisen: London, June 2024",
+      "target": "33Reisen"
+    },
+    {
+      "source": "33reisen: London, June 2024",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "33reisen: London, June 2024",
+      "target": "33reisen"
+    },
+    {
+      "source": "33reisen: London, October 2023",
+      "target": "Kerosene"
+    },
+    {
+      "source": "33reisen: London, October 2023",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "33reisen: London, October 2023",
+      "target": "33reisen"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Left-accelerationism"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Capitalist Realism"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Nick Land"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Anthropocene"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Mark Fisher"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Accelerationism"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Capitalocene"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Effective Accelerationism"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "AI alignment"
+    },
+    {
+      "source": "Accelerationist Realism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Against New Games",
+      "target": "Digital sovereignty"
+    },
+    {
+      "source": "Against New Games",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Against New Games",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "Against New Games",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Against New Games",
+      "target": "Extortion Industry"
+    },
+    {
+      "source": "Against New Games",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Amazing black culture",
+      "target": "Milady community"
+    },
+    {
+      "source": "Amazing black culture",
+      "target": "Jinnt (@djinnt)"
+    },
+    {
+      "source": "Amazing black culture",
+      "target": "Jinnt"
+    },
+    {
+      "source": "Amazing black culture",
+      "target": "Elon Musk"
+    },
+    {
+      "source": "Anathleticism",
+      "target": "Anorexia subculture"
+    },
+    {
+      "source": "Anathleticism",
+      "target": "Hot Pot"
+    },
+    {
+      "source": "Anathleticism",
+      "target": "Onno Whitemoor"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Wet Brain"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Remilia01 (2023)"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Sophia Vanderbilt"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Film01 (2023)"
+    },
+    {
+      "source": "Angelicism01",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "Lefthand style"
+    },
+    {
+      "source": "Art accelerationism",
+      "target": "Neochibi"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Network Accelerationism"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Radical Love Through the End Times is the only vibe that Vibes"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Network accelerationism"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Remilia Chat"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Ascend the Network",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Millennialism"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Democracy Breeds for Control"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Atheistic materialism"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Whitepill (Remilia Manifesto)"
+    },
+    {
+      "source": "Atheistic materialism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "Radical Love"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "Accelerationism"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "KALI/ACC Basilisk"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "Rose Lyddon"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Augustinian Accelerationism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Blockchain art"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Avant NFT Wave"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "PFP NFT"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Network art"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Squigglecore"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Hypercitation"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Hypercitationalism"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Firstslop"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Milady Jihad"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Avant NFT",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Abundance Mindset"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Derivative ecosystem"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Super Metal Mons!!"
+    },
+    {
+      "source": "Avant NFT Wave",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Based Retard Gang"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Chinese Instagram"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Netspi"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Hyperpop"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Post-cancelled"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Based Retard Gang",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Banners NFT",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Banners NFT",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Banners NFT",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Banners NFT",
+      "target": "Beetle Game"
+    },
+    {
+      "source": "Banners NFT",
+      "target": "Hypercitation"
+    },
+    {
+      "source": "Banners NFT",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "Banners NFT"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "Beetleboy"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "RemiliaNET"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "CULT"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "Schizomorphism"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "Remilia Achievements"
+    },
+    {
+      "source": "Beetle Game",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Beetleboy",
+      "target": "RemiliaNET"
+    },
+    {
+      "source": "Beetleboy",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Bihk",
+      "target": "Yeag Chat"
+    },
+    {
+      "source": "Bihk",
+      "target": "Kek"
+    },
+    {
+      "source": "Bihk",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Bihk",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Bihk",
+      "target": "Remilia ecosystem"
+    },
+    {
+      "source": "Bihk",
+      "target": "Whitepill (Remilia Manifesto)"
+    },
+    {
+      "source": "Bihk",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Bioleninism",
+      "target": "Spandrell"
+    },
+    {
+      "source": "Bioleninism",
+      "target": "The Cathedral"
+    },
+    {
+      "source": "Bioleninism",
+      "target": "Curtis Yarvin"
+    },
+    {
+      "source": "Bioleninism",
+      "target": "Dark Enlightenment"
+    },
+    {
+      "source": "Bioleninism",
+      "target": "Curtis Yarvin (Mencius Moldbug)"
+    },
+    {
+      "source": "Bioleninism",
+      "target": "Neoreaction"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Henry Sprite"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Nouns DAO"
+    },
+    {
+      "source": "Bonkler",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Remilia x FRUiTS"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Henry Sprite"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Remilia Korea"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "CULT ICO"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "FRUiTS Magazine"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "RemiliaNET"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "John Duff"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Remilia Lawsuit"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "$CULT"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Hot Pot (groupchat)"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Remilia Quarterly"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Maxwell Roux"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Bruno Nispel"
+    },
+    {
+      "source": "Bonkler 9/11",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "New Net Art"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "CULT"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "CHEESEWORLD"
+    },
+    {
+      "source": "CHEESEWORLD",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Pseudophilosophy"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Neo-Orientalism"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Left-Hand Style"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "CHEESEWORLD"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Krishna Pandit Okhandiar"
+    },
+    {
+      "source": "Charlotte Fang",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Based Retard Gang"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Neo-Orientalism"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Jadeposting"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Cosmological Multipolarity"
+    },
+    {
+      "source": "Chineseposting",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Liz777"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Based Retard Gang"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Persona-egregrores"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Accelerationist realism"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Gravity Boost Theory"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "KALI/ACC Basilisk"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Performative Posting"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Effective Accelerationism"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Chloe21e8",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "René Guénon"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "Julius Evola"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "Friedrich Nietzsche"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "Alexander Dugin"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "Pacific Turn"
+    },
+    {
+      "source": "Cosmological Multipolarity",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "The Cathedral"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "Urbit"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "Neoreactionary movement (NRx"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "Democracy Breeds for Control"
+    },
+    {
+      "source": "Curtis Yarvin",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Technocapitalism"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Cute Cthulhu Thesis",
+      "target": "Neochibi"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Ethereum Foundation"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Wartime Vitalik"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Wartime PFP"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Vitalik Buterin"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Crypto and its Discontents: Hello Web3 Entryists"
+    },
+    {
+      "source": "Cypherpunk Purity Spiral",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Yeag Chat"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Deathcel Skibidi"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Deathcel",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Remilia ecosystem"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Bihk"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Whitepill (Remilia Manifesto)"
+    },
+    {
+      "source": "Deathcel",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Yeag Chat"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Bihk"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Remilia ecosystem"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Sol Brah Save Me"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Deathcel"
+    },
+    {
+      "source": "Deathcel Skibidi (2024)",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Michel Foucault"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "The Cathedral"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Bioleninism"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "José Ortega y Gasset"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Millennialism"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Alexis de Tocqueville"
+    },
+    {
+      "source": "Democracy Breeds for Control",
+      "target": "Gilles Deleuze"
+    },
+    {
+      "source": "Dog Bone Village",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Dog Bone Village",
+      "target": "Network accelerationism"
+    },
+    {
+      "source": "Dog Bone Village",
+      "target": "CHEESEWORLD"
+    },
+    {
+      "source": "Down the Milady Maker Rabbithole (2022)",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "Down the Milady Maker Rabbithole (2022)",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Down the Milady Maker Rabbithole (2022)",
+      "target": "Miya (Kali Yuga Accelerationism)"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Baycel"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Radical Love"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Nick Land"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Chloe21e8"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "KALI/ACC Basilisk"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Effective Accelerationism"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Effective Accelerationism",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Everyone is a Chinese wigger online",
+      "target": "You can always be more Chinese"
+    },
+    {
+      "source": "Everyone is a Chinese wigger online",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Everyone is a Chinese wigger online",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "Everyone is a Chinese wigger online",
+      "target": "Looming China"
+    },
+    {
+      "source": "Everyone is a Chinese wigger online",
+      "target": "Post-identity"
+    },
+    {
+      "source": "Everyone is a Chinese wigger online",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Exocore",
+      "target": "Digital sovereignty"
+    },
+    {
+      "source": "Exocore",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Exocore",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Exocore",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "Exocore",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Exocore",
+      "target": "New Internet"
+    },
+    {
+      "source": "Exocore",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Extortion Industry",
+      "target": "Against New Games"
+    },
+    {
+      "source": "Extortion Industry",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Extortion Industry",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Extortion Industry",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "Extortion Industry",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Extortion Industry",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Film01 (2023)",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Film01 (2023)",
+      "target": "Remilia01 (2023)"
+    },
+    {
+      "source": "Film01 (2023)",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Film01 (2023)",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Film01 (2023)",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Firstslop",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Firstslop",
+      "target": "Squigglecore"
+    },
+    {
+      "source": "Firstslop",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Get in the Crystal",
+      "target": "2024 Election Vibe Shift"
+    },
+    {
+      "source": "Get in the Crystal",
+      "target": "Chudjak"
+    },
+    {
+      "source": "Get in the Crystal",
+      "target": "Milady Election Night Watch Party"
+    },
+    {
+      "source": "God's Remix",
+      "target": "Banners NFT"
+    },
+    {
+      "source": "God's Remix",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "God's Remix",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Liz777"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Chloe21e8"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Cybersteppe"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Cry Prittie"
+    },
+    {
+      "source": "Gravity Boost Theory",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Abundance Mindset"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Grum Slah the Gabba King"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Performative posting"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Warholian Groupchat"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Street Don"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Warholian groupchat"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Remilia Chat"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Hot Pot (groupchat)",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Hurt hapas",
+      "target": "PfpNFT"
+    },
+    {
+      "source": "Hurt hapas",
+      "target": "Ethereum"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "CHINA!"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Mask Art"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Mirror (platform)"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Remilia Quarterly"
+    },
+    {
+      "source": "Hypercitationalism",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "CULT TGE"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Megu/pol/"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Miladychan"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Chen2"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Network Accelerationism"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Somachat"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "RemiliaNET"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Meguca"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "New Internet"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Zyg.re"
+    },
+    {
+      "source": "Hyperrealtime",
+      "target": "Remilia Chat"
+    },
+    {
+      "source": "IQ Communication Barrier",
+      "target": "Stratified Literacy Theory"
+    },
+    {
+      "source": "IQ Communication Barrier",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "IQ Communication Barrier",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "IQ shredder",
+      "target": "Spandrell"
+    },
+    {
+      "source": "IQ shredder",
+      "target": "Curtis Yarvin"
+    },
+    {
+      "source": "IQ shredder",
+      "target": "Dark Enlightenment"
+    },
+    {
+      "source": "IQ shredder",
+      "target": "Bioleninism"
+    },
+    {
+      "source": "IQ shredder",
+      "target": "Neoreaction"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "Bloody PFP"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "FBI Hat"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "Liz777"
+    },
+    {
+      "source": "I LOVE YOU CHARLOTTE FANG",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Mara Barl"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Remilia Manifesto"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Ilyena Nienel"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Honer Levy"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Milady Sonora"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "FODKORP"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Bonkler"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "New York Downtown Art Scene"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Wretched Worm"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Chensi Fang"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "New Net Art"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Dean Kissick"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "I Long For Network Spirituality",
+      "target": "Atrpntime"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Mara Barl"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Remilia Manifesto"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Ilyena Nienel"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Honer Levy"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Milady Sonora"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "FODKORP"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Bonkler"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "New York Downtown Art Scene"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Wretched Worm"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Chensi Fang"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "New Net Art"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Dean Kissick"
+    },
+    {
+      "source": "I Long for Network Spirituality",
+      "target": "Atrpntime"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Julius Evola"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "René Girard"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Andrew Tate"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Kerosene"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Asterisk of Obesity"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "G Manifesto"
+    },
+    {
+      "source": "Ibn Sonya",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Interview: Visla Magazine — Charlotte Fang (2024)",
+      "target": "FRUiTS Magazine"
+    },
+    {
+      "source": "Interview: Visla Magazine — Charlotte Fang (2024)",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Interview: Visla Magazine — Charlotte Fang (2024)",
+      "target": "Based Retard Gang"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Neo-Orientalism"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Street Don"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Hot Pot (group chat)"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "FODKORP"
+    },
+    {
+      "source": "Jadeposting",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Nick Land"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Nazi Anorexia Cult Hoax"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "KALI/ACC Basilisk: A Survival Horror Eschatology"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Accelerationism"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Down the Milady Maker Rabbithole"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Zyg.re"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Post-cancelled"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Schizocollage"
+    },
+    {
+      "source": "KALI/ACC",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Radical Love Through the End Times is the only vibe that Vibes"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Nick Land"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Pick a Future"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "KALI/ACC Basilisk",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Kagami Academy",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Kagami Academy",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Kagami Academy",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Kagami Academy",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Kagami Academy",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Kagami Academy",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Kemonokaki",
+      "target": "Oekaki Connect"
+    },
+    {
+      "source": "Kemonokaki",
+      "target": "Base (blockchain)"
+    },
+    {
+      "source": "Kemonokaki",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Kemonokaki",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Kerosene",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "Kerosene",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Kerosene",
+      "target": "33reisen"
+    },
+    {
+      "source": "Kerosene",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Kerosene",
+      "target": "Kerosene"
+    },
+    {
+      "source": "Kerosene",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Krishna Pandit Okhandiar",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Krishna Pandit Okhandiar",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Krishna Pandit Okhandiar",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Krishna Pandit Okhandiar",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Krishna Pandit Okhandiar",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Krishna Pandit Okhandiar",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Post-anime"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Art accelerationism"
+    },
+    {
+      "source": "Left-hand style",
+      "target": "Neochibi"
+    },
+    {
+      "source": "Lefthand style",
+      "target": "Lefthand style"
+    },
+    {
+      "source": "Liz777",
+      "target": "Netspi Aesthetic"
+    },
+    {
+      "source": "Liz777",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Liz777",
+      "target": "Based Retard Gang"
+    },
+    {
+      "source": "Liz777",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Liz777",
+      "target": "Bloody PFP"
+    },
+    {
+      "source": "Liz777",
+      "target": "Chloe21e8"
+    },
+    {
+      "source": "Liz777",
+      "target": "I LOVE YOU CHARLOTTE FANG"
+    },
+    {
+      "source": "Liz777",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Liz777",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "Liz777",
+      "target": "FBI Hat"
+    },
+    {
+      "source": "Liz777",
+      "target": "Gravity Boost Theory"
+    },
+    {
+      "source": "Liz777",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Liz777",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Liz777",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Looming China",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Looming China",
+      "target": "Chinese Instagram"
+    },
+    {
+      "source": "Looming China",
+      "target": "Jadeposting"
+    },
+    {
+      "source": "Looming China",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Looming China",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "Looming China",
+      "target": "Accelerationism"
+    },
+    {
+      "source": "Looming China",
+      "target": "Cosmological Multipolarity"
+    },
+    {
+      "source": "Looming China",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "MFA",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "MFA",
+      "target": "Post-Internet Art"
+    },
+    {
+      "source": "MFA",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "MFA",
+      "target": "Anti-MFA Pledge"
+    },
+    {
+      "source": "MFA",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "MFA",
+      "target": "Tamales"
+    },
+    {
+      "source": "Main Page",
+      "target": "Milady Rave"
+    },
+    {
+      "source": "Main Page",
+      "target": "Moe"
+    },
+    {
+      "source": "Main Page",
+      "target": "Beetle Game"
+    },
+    {
+      "source": "Main Page",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Main Page",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Main Page",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "Main Page",
+      "target": "God's Remix"
+    },
+    {
+      "source": "Main Page",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Main Page",
+      "target": "33reisen"
+    },
+    {
+      "source": "Main Page",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Main Page",
+      "target": "Avant NFT Wave"
+    },
+    {
+      "source": "Main Page",
+      "target": "$CULT"
+    },
+    {
+      "source": "Main Page",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Main Page",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "Main Page",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Main Page",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Main Page",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Main Page",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Main Page",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Main Page",
+      "target": "Remilia Lawsuit"
+    },
+    {
+      "source": "Main Page",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Main Page",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "Main Page",
+      "target": "I Long for Network Spirituality"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Kali/ACC"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Neochibi"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Post-cancelled"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Milady Maker",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Milady, That B.I.T.C.H.",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Milady, That B.I.T.C.H.",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady, That B.I.T.C.H.",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Milady, That B.I.T.C.H.",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Milady Fumo Baby 404",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Milady Fumo Baby 404",
+      "target": "$CULT"
+    },
+    {
+      "source": "Milady Fumo Baby 404",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady Fumo Baby 404",
+      "target": "Milady Fumo Baby 404"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Wretched Worm"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Cancel Dossier"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "I LOVE YOU CHARLOTTE FANG"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Sophia Vanderbilt"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Milady Cancel",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Milady Culture",
+      "target": "Milady Culture"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Cypherpunk Purity Spiral"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Kemonokaki"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Wealthy Hypio Babies"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Retardio Cousins"
+    },
+    {
+      "source": "Milady Jihad",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Milady Rave: London, December 2022",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Milady Rave: London, December 2022",
+      "target": "Kerosene"
+    },
+    {
+      "source": "Milady Rave: London, December 2022",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady Rave: London, December 2022",
+      "target": "33reisen"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Henry Sprite"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "FODKORP"
+    },
+    {
+      "source": "Milady Sonora",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Abundance Mindset"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Grand Remilia Ball"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Post-Internet Art"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Miladycraft",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Millennialism",
+      "target": "Tamales"
+    },
+    {
+      "source": "Millennialism",
+      "target": "The Wired Eats the Real"
+    },
+    {
+      "source": "Millennialism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Millennialism",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Millennialism",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Millennialism",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "Millennialism",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "Millennialism",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "Millennialism",
+      "target": "Democracy Breeds for Control"
+    },
+    {
+      "source": "Millennialism",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Zyg.re"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Miya Black Hearted Cyber Angel Baby",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Moe",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Moe",
+      "target": "Chibi"
+    },
+    {
+      "source": "Moe",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Moe",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Moe",
+      "target": "Kawaii"
+    },
+    {
+      "source": "Moe",
+      "target": "Neochibi"
+    },
+    {
+      "source": "Moe",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Moe",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Ibn Sonya"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Post-Internet Art"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Kerosene"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Sonya Qafi Hassan"
+    },
+    {
+      "source": "Nazi Anorexia Cult",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Neo-Orientalism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Neochibi",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Neochibi",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Neochibi",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Neochibi",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Neochibi",
+      "target": "Post-anime"
+    },
+    {
+      "source": "Neochibi",
+      "target": "Lefthand style"
+    },
+    {
+      "source": "Neochibi",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Omega Point"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Mara Barl"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Remilia Manifesto"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Post-identity"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Ilyena Nienel"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Henry Sprite"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "FODKORP"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "The Wired Eats the Real"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Atheistic materialism"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Remilia Quarterly"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Teilhard de Chardin"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "RemiliaChat"
+    },
+    {
+      "source": "Network spirituality",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Ascend the Network"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Radical Love"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Copyleft"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Information freedom"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Remilia Chat"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "KALI/ACC"
+    },
+    {
+      "source": "Network accelerationism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "New Internet",
+      "target": "Ascend the Network"
+    },
+    {
+      "source": "New Internet",
+      "target": "Network Accelerationism"
+    },
+    {
+      "source": "New Internet",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "New Internet",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "New Internet",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "New Internet",
+      "target": "Meguca"
+    },
+    {
+      "source": "New Internet",
+      "target": "New Internet"
+    },
+    {
+      "source": "New Internet",
+      "target": "Network accelerationism"
+    },
+    {
+      "source": "New Internet",
+      "target": "Remilia Chat"
+    },
+    {
+      "source": "New Internet",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Abundance Mentality"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Posting as Art"
+    },
+    {
+      "source": "New Net Art",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Mail Art"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Net.art"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Post-Internet Art"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Remilia Derivative Ecosystem"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "New Net Art",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "New Net Art",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Post-Internet Art"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Avant NFT Wave"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "New Net Art"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "The Futurist Manifesto"
+    },
+    {
+      "source": "New Net Art Manifesto",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "The Wired Eats the Real"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "Atheistic materialism"
+    },
+    {
+      "source": "Transcendental Turn",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Nochillio",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Nochillio",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Normie",
+      "target": "Post-Irony"
+    },
+    {
+      "source": "Normie",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Normie",
+      "target": "The Wired Eats the Real"
+    },
+    {
+      "source": "Normie",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Normie",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "Normie",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "Normie",
+      "target": "Democracy Breeds for Control"
+    },
+    {
+      "source": "Normie",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "Pixelady Maker"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "Kemonokaki"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "Oekaki Maker"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "Scatter (platform)"
+    },
+    {
+      "source": "Oekaki Connect",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Pixelady Maker",
+      "target": "Oekaki Connect"
+    },
+    {
+      "source": "Pixelady Maker",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Post-Authorship",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Post-Authorship",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Post-Authorship",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Post-Authorship",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "Post-Authorship",
+      "target": "Post-identity"
+    },
+    {
+      "source": "Post-Authorship",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Remilia Chat"
+    },
+    {
+      "source": "Post-cancelled",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Post-identity",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Post-identity",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Post-identity",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Post-identity",
+      "target": "Looming China"
+    },
+    {
+      "source": "Post-identity",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Posting Art",
+      "target": "New Net Art Manifesto"
+    },
+    {
+      "source": "Posting Art",
+      "target": "Posting Art"
+    },
+    {
+      "source": "Posting Art",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Posting Art",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Posting Art",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Posting Art",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Posting Art",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Dynasty Mindset"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Radical Love Through the End Times is the only vibe that Vibes"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Augustinian Accelerationism"
+    },
+    {
+      "source": "Radical Love",
+      "target": "KALI/ACC Basilisk"
+    },
+    {
+      "source": "Radical Love",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Dynasty Mindset"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Radical Love"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Radical Love Through the End Times is the only vibe that Vibes"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Augustinian Accelerationism"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "KALI/ACC Basilisk"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Pick a Future"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "I Long for Network Spirituality"
+    },
+    {
+      "source": "Radical Love Through the End Times is the only vibe that Vibes",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "FODKORP"
+    },
+    {
+      "source": "Redacted Remilio Babies",
+      "target": "Neochibi"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "CULT ICO"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Remilia Corporation (artwork)"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "The Factory"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "CULT TGE"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Bernadette Corporation"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Based Retard Gang"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Conceptual artwork"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Cybernetic Culture Research Unit"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Love Accelerationism (LOVE/ACC)"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Cypherpunk"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Accelerationist Realism"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Nick Land"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Andy Warhol"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Post-cancelled"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "CUTE/ACC"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Cypherpunk Purity Spiral"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Accelerationism"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "Remilia Corporation",
+      "target": "Indie sleaze"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Henry Sprite"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Mara Barl"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Irreverent subtitling"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Remilia01 (2023)"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "New York downtown art scene"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Sophia Vanderbilt"
+    },
+    {
+      "source": "Remilia01 (2023)",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "RemiliaNET",
+      "target": "Kagami Academy"
+    },
+    {
+      "source": "RemiliaNET",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "RemiliaNET",
+      "target": "New Net Art"
+    },
+    {
+      "source": "RemiliaNET",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "RemiliaNET",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Blue",
+      "target": "Remilia Red"
+    },
+    {
+      "source": "Remilia Blue",
+      "target": "XCELA Green"
+    },
+    {
+      "source": "Remilia Blue",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "Remilia Blue",
+      "target": "International Klein Blue"
+    },
+    {
+      "source": "Remilia Blue",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "Remilia Blue",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "1000 Flowers Dream"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "3DTestosterone"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Hot Pot (groupchat)"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Remilia Corporation (artwork)"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "FODKORP"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Ilyena Nienel"
+    },
+    {
+      "source": "Remilia Collective",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "NFT"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Bernadette Corporation"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Italian Futurism"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Cybernetic Culture Research Unit"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "RemiliaNET"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Andy Warhol"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Redacted Remilio Babies"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Remilia Quarterly"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "The Factory"
+    },
+    {
+      "source": "Remilia Corporation (artwork)",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Remilia Cotton Candy Tartan",
+      "target": "Remilia Red"
+    },
+    {
+      "source": "Remilia Cotton Candy Tartan",
+      "target": "33reisen"
+    },
+    {
+      "source": "Remilia Cotton Candy Tartan",
+      "target": "Remilia Blue"
+    },
+    {
+      "source": "Remilia Cotton Candy Tartan",
+      "target": "Starstooth Check"
+    },
+    {
+      "source": "Remilia Cotton Candy Tartan",
+      "target": "Reisen Academy"
+    },
+    {
+      "source": "Remilia Cotton Candy Tartan",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Quarterly",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Remilia Quarterly",
+      "target": "FODKORP"
+    },
+    {
+      "source": "Remilia Quarterly",
+      "target": "Onno Whitemoor"
+    },
+    {
+      "source": "Remilia Quarterly",
+      "target": "Mara Barl"
+    },
+    {
+      "source": "Remilia Red",
+      "target": "Remilia Blue"
+    },
+    {
+      "source": "Remilia Red",
+      "target": "XCELA Green"
+    },
+    {
+      "source": "Remilia Red",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Retart",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Retart",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Rugcore",
+      "target": "Abundance Mindset"
+    },
+    {
+      "source": "Rugcore",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Rugcore",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Rugcore",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Rugcore",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Everything Bonkler"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Schizo-aesthetics"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Tojiba CEO"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Avant NFT Wave"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Drifella"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Jadeposting"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Schizocollage"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Infodensity"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Gay NFT"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Hypercitationalism"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Mifella"
+    },
+    {
+      "source": "Schizocollage",
+      "target": "Brian Droitcour"
+    },
+    {
+      "source": "Schizomorphism",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Schizomorphism",
+      "target": "RemiliaNET"
+    },
+    {
+      "source": "Schizomorphism",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Schizomorphism",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Schizomorphism",
+      "target": "CULT"
+    },
+    {
+      "source": "Schizomorphism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Sol Brah"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Yeag Chat"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Deathcel Skibidi"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Bihk"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Remilia ecosystem"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Deathcel"
+    },
+    {
+      "source": "Sol Brah Save Me",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Squigglecore",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Squigglecore",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Squigglecore",
+      "target": "Firstslop"
+    },
+    {
+      "source": "Starstooth Check",
+      "target": "Remilia Blue"
+    },
+    {
+      "source": "Starstooth Check",
+      "target": "Kagami Academy"
+    },
+    {
+      "source": "Starstooth Check",
+      "target": "Remilia Red"
+    },
+    {
+      "source": "Starstooth Check",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "State Propaganda Complex",
+      "target": "The Cathedral"
+    },
+    {
+      "source": "State Propaganda Complex",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "State Propaganda Complex",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "State Propaganda Complex",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "State Propaganda Complex",
+      "target": "Democracy Breeds for Control"
+    },
+    {
+      "source": "State Propaganda Complex",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Stratified Literacy Theory",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Stratified Literacy Theory",
+      "target": "IQ Communication Barrier"
+    },
+    {
+      "source": "Streisand deflect",
+      "target": "TPOT"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Wretched Worm"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Super Metal Bosch"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Avant NFT Wave"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Gay NFT"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Yeche Lange"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Sophia Vanderbilt"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Super Metal Mons!!",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Tamales",
+      "target": "David Rudnick"
+    },
+    {
+      "source": "Tamales",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Tamales",
+      "target": "Remilia Mythopoetics"
+    },
+    {
+      "source": "Tamales",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Tamales",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "Tamales",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Tamales",
+      "target": "Daniel Keller"
+    },
+    {
+      "source": "Tamales",
+      "target": "NFT Strategy"
+    },
+    {
+      "source": "Tamales",
+      "target": "Dean Kissick"
+    },
+    {
+      "source": "Tamales",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "The Borg",
+      "target": "Roon"
+    },
+    {
+      "source": "The Borg",
+      "target": "Artificial intelligence"
+    },
+    {
+      "source": "The Borg",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "The Borg",
+      "target": "Human-computer interaction"
+    },
+    {
+      "source": "The Borg",
+      "target": "Cyborgism"
+    },
+    {
+      "source": "The Borg",
+      "target": "The Merge"
+    },
+    {
+      "source": "The Borg",
+      "target": "Post-humanism"
+    },
+    {
+      "source": "The Cathedral",
+      "target": "Curtis Yarvin"
+    },
+    {
+      "source": "The Cathedral",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "The Cathedral",
+      "target": "Transcendental Turn"
+    },
+    {
+      "source": "The Cathedral",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "The Cathedral",
+      "target": "Neoreaction"
+    },
+    {
+      "source": "The Cathedral",
+      "target": "Democracy Breeds for Control"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Tamales"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "The Cathedral"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "The Wired Eats the Real"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "New Net Art"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Millennialism"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "State Propaganda Complex"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "MFA"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Millennial Gatekeeping"
+    },
+    {
+      "source": "The Lost Generation of Artists",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "The Merge",
+      "target": "The Merge (disambiguation)"
+    },
+    {
+      "source": "The Merge",
+      "target": "Brain-computer interface"
+    },
+    {
+      "source": "The Merge",
+      "target": "Transhumanism"
+    },
+    {
+      "source": "The Merge",
+      "target": "Technological singularity"
+    },
+    {
+      "source": "The Merge",
+      "target": "AI alignment"
+    },
+    {
+      "source": "The Merge",
+      "target": "Post-humanism"
+    },
+    {
+      "source": "The Pacific Turn",
+      "target": "CHINA!"
+    },
+    {
+      "source": "The Pacific Turn",
+      "target": "Remilia Irvine"
+    },
+    {
+      "source": "The Pacific Turn",
+      "target": "Neo-Orientalism"
+    },
+    {
+      "source": "The Pacific Turn",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "The Pacific Turn",
+      "target": "Cosmological Multipolarity"
+    },
+    {
+      "source": "The Wired Eats the Real",
+      "target": "Miya Black Hearted Cyber Angel Baby"
+    },
+    {
+      "source": "The Wired Eats the Real",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "The Wired Eats the Real",
+      "target": "New Net Art"
+    },
+    {
+      "source": "The Wired Eats the Real",
+      "target": "Serial Experiments Lain"
+    },
+    {
+      "source": "The Wired Eats the Real",
+      "target": "Golden Light (Mirror)"
+    },
+    {
+      "source": "The Wired Eats the Real",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "Miladychan"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "Bonkler"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "Laszlo Parker"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "$CULT"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "YAYO NFT"
+    },
+    {
+      "source": "Tim Clancy",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "New Net Art Manifseto"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Timeline Happening",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Remilia01 (2023)"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Dimes Square"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Wet Brain Podcast"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "New York downtown art scene"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Sophia Vanderbilt"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Nazi Anorexia Cult"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Wet Brain"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Film01 (2023)"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "New Net Art"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "Wet Brain podcast"
+    },
+    {
+      "source": "Vibe Shift",
+      "target": "I Long For Network Spirituality"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Derivative strategy"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Against New Games"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Extortion Industry"
+    },
+    {
+      "source": "Viral Public License",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Ethereum Foundation"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Cypherpunk Purity Spiral"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Ethereum"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Wartime PFP"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Vitalik Buterin"
+    },
+    {
+      "source": "Vitalik Milady Arc",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Angelicism01 clone"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Avant NFT Wave"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Digital art appropriation"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "The Lost Generation of Artists"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Daniel Keller"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Gay NFT"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Avant NFT Attribution Dispute"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "NYC Downtown Art Scene"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Onno Whitemoor"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Jared Madere"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Avant NFT"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Vulture Revisionism"
+    },
+    {
+      "source": "Vulture Revisionism",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Warholian Groupchat",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Warholian Groupchat",
+      "target": "Bonkler 9/11"
+    },
+    {
+      "source": "Warholian Groupchat",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "Warholian Groupchat",
+      "target": "Hot Pot (groupchat)"
+    },
+    {
+      "source": "Warholian Groupchat",
+      "target": "Milady Cancel"
+    },
+    {
+      "source": "Warholian Groupchat",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Nic Carter"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Wartime Vitalik"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Zhu Su"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "0xCobie"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Soap.rwo"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Shooter.eth"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Vitalik Buterin"
+    },
+    {
+      "source": "Wartime PFP",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Honor Levy"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Peter Vack"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Dasha Nekrasova"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Walter Pearce"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Angelicism01"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Vibe Shift"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "New York downtown art scene"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Eugene Kotlyarenko"
+    },
+    {
+      "source": "Wet Brain Podcast",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "XCELA Green",
+      "target": "Remilia Red"
+    },
+    {
+      "source": "XCELA Green",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "XCELA Green",
+      "target": "XCELA Group"
+    },
+    {
+      "source": "XCELA Green",
+      "target": "Remilia Blue"
+    },
+    {
+      "source": "XCELA Green",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Milady Maker (application)"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Remichat POC"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Against New Games"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Somachat"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Post-Authorship"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Network spirituality"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "New Net Art"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Viral Public License"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Remilia Collective"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Network accelerationism"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Extortion Industry"
+    },
+    {
+      "source": "XCELA Group",
+      "target": "Exocore"
+    },
+    {
+      "source": "YAYO NFT",
+      "target": "Scearpo"
+    },
+    {
+      "source": "YAYO NFT",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "YAYO NFT",
+      "target": "$YAYO"
+    },
+    {
+      "source": "YAYO NFT",
+      "target": "YAYO Corporation"
+    },
+    {
+      "source": "YAYO Supplements",
+      "target": "Scearpo"
+    },
+    {
+      "source": "YAYO Supplements",
+      "target": "YAYO Corporation"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "American Psycho"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "YAYO Corporation/Community"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "Remilia Corporation"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "YAYO Supplements"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "John Lemaire"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "Scearpo"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "$YAYO"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "Hiroshi Nagai"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "YAYO NFT"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "Wall Street"
+    },
+    {
+      "source": "Yayo Corporation",
+      "target": "Milady Maker"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "You can always be more Chinese"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "Everyone is a Chinese wigger online"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "Charlotte Fang"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "Chineseposting"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "Looming China"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "Post-identity"
+    },
+    {
+      "source": "You can always be more Chinese",
+      "target": "Remilia Corporation"
+    }
+  ]
+}
