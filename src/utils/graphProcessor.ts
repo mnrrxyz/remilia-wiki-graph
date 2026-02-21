@@ -6,6 +6,13 @@ const graphData = enrichedData as EnrichedGraphData
 // Nodes to hide from the graph
 const HIDDEN_NODES = new Set(['Main Page'])
 
+// Exclude non-English nodes: /ko suffixes and Korean Hangul characters
+function isNonEnglish(id: string): boolean {
+  if (/\/[a-z]{2}$/.test(id)) return true          // e.g. /ko, /es, /fr
+  if (/[\uAC00-\uD7AF\u1100-\u11FF]/.test(id)) return true  // Hangul
+  return false
+}
+
 function findLargestComponent(nodeIds: Set<string>, edges: GraphEdge[]): Set<string> {
   // Build adjacency list (undirected)
   const adj = new Map<string, Set<string>>()
@@ -62,6 +69,7 @@ export function processGraphData(): GraphData {
 
   for (const { source, target } of rawEdges) {
     if (HIDDEN_NODES.has(source) || HIDDEN_NODES.has(target)) continue
+    if (isNonEnglish(source) || isNonEnglish(target)) continue
 
     nodeIds.add(source)
     nodeIds.add(target)

@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import re
 from collections import defaultdict
 
 # ==================== CONFIGURACIÓN ====================
@@ -54,7 +55,9 @@ def get_all_wiki_pages():
         
         pages = data.get('query', {}).get('allpages', [])
         for page in pages:
-            all_pages.append(page['title'])
+            title = page['title']
+            if not is_non_english(title):
+                all_pages.append(title)
         
         print(f"  Descubiertas: {len(all_pages)} páginas...")
         
@@ -107,22 +110,36 @@ def get_page_links_api(page_title):
     return links
 
 
+def is_non_english(title):
+    """Detecta páginas no-inglesas: sufijo /xx o caracteres Hangul"""
+    if re.search(r'/[a-z]{2}$', title):
+        return True
+    if re.search(r'[\uAC00-\uD7AF\u1100-\u11FF]', title):
+        return True
+    return False
+
+
 def filter_links(links, verbose=False):
     """Filtra links según reglas configurables"""
     filtered = []
     excluded = []
-    
+
     for link in links:
         # Check prefijos
         if any(link.startswith(prefix) for prefix in EXCLUDE_PREFIXES):
             excluded.append((link, 'prefix'))
             continue
-        
+
         # Check keywords
         if any(keyword in link for keyword in EXCLUDE_KEYWORDS):
             excluded.append((link, 'keyword'))
             continue
-        
+
+        # Excluir páginas no-inglesas
+        if is_non_english(link):
+            excluded.append((link, 'non-english'))
+            continue
+
         filtered.append(link)
     
     if verbose and excluded:
