@@ -113,10 +113,10 @@ export function SidePanel({ selectedNodeId, hoveredNode, data, onNodeSelect, onN
     <div
       ref={panelRef}
       className="fixed inset-x-0 bottom-0 md:inset-auto md:right-0 md:top-0 md:bottom-auto md:max-h-none md:h-full md:w-80 bg-black/95 border-t md:border-t-0 md:border-l border-white/20 flex flex-col z-50 rounded-t-2xl md:rounded-none safe-area-bottom"
-      style={{
+      style={window.innerWidth < 768 ? {
         maxHeight: getMobileMaxHeight(),
         transition: isDragging ? 'none' : 'max-height 0.3s ease-out',
-      }}
+      } : {}}
     >
       {/* Mobile handle - draggable area */}
       <div
